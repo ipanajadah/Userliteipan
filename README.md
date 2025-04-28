@@ -1,26 +1,30 @@
-𝐈𝐏𝐀𝐍𝐊𝐋𝐒𝐔𝐒𝐄𝐑𝐁𝐎𝐓
+
 ```
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/ipan1434/ubotlite
+git clone https://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@github.com/ipan1434/kontolahbanajanammmmiiirtaanjir
 ```
 ```
-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
-```
-```
-cd ubotlite && screen -S ubotlite
-
+cd kontolahbanajanammmmiiirtaanjir && screen -S kontolahbanajanammmmiiirtaanjir
 ```
 ```
 bash installnode.sh && apt install python3.10-venv
 ```
 ```
-python3 -m venv ubotlite && source ubotlite/bin/activate
-
+python3 -m venv kontolahbanajanammmmiiirtaanjir && source kontolahbanajanammmmiiirtaanjir/bin/activate
 ```
 ```
 pip3 install -r requirements.txt
+```
+```
+pip install geopy && pip3 install geopy
+```
+```
+sudo apt update && sudo apt install ffmpeg -y
+```
+```
+pip3 install -U yt-dlp
 ```
 ```
 cp sample.env .env && nano .env
