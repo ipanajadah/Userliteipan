@@ -2621,7 +2621,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None):
         pairs = pairs[modulo_page * line : line * (modulo_page + 1)] + [
             (
                 EqInlineKeyboardButton(
-                    "⫷",
+                    "《",
                     callback_data="{}_prev({})".format(prefix, modulo_page),
                 ),
                 EqInlineKeyboardButton(
@@ -2629,7 +2629,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None):
                     callback_data="close_user".format(prefix, modulo_page),
                 ),
                 EqInlineKeyboardButton(
-                    "⫸",
+                    "》",
                     callback_data="{}_next({})".format(prefix, modulo_page),
                 ),
             )
