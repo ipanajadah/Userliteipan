@@ -35,7 +35,7 @@ async def _(client, message):
 {tion} {ngentod} : <code>{client.me.mention}</code>
 {yubot} {kontol} : <code>{bot.me.mention}</code></blockquote>
 
-<blockquote><b>USERBOT 5K/BULAN BY @Ipaaaaajaalaah_bot</b></blockquote>"""
+<blockquote><b>USERLITE KEREN IPANXD</b></blockquote>"""
         await message.reply(_ping)
     else:
         _ping = f"""
@@ -71,10 +71,10 @@ async def _(client, message):
 {tion}owner : {client.me.mention}
 {yubot}ubot : {bot.me.mention}</blockquote>
 
-<blockquote><b>USERBOT 5K/BULAN BY @Ipaaaaajaalaah_bot</b></blockquote>
+<blockquote><b>USERLITE KEREN IPANXD</b></blockquote>
     """
         await message.reply(_ping)
     else:
-        await message.reply(f"<blockquote>pong : {str(delta_ping_formatted).replace('.', ',')} ms</blockquote>\n\n<blockquote><b>USERBOT 5K/BULAN BY @Ipaaaaajaalaah_bot</b></blockquote>")
+        await message.reply(f"<blockquote>pong : {str(delta_ping_formatted).replace('.', ',')} ms</blockquote>\n\n<blockquote><b>USERLITE KEREN IPANXD</b></blockquote>")
 
 
