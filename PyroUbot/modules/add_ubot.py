@@ -18,7 +18,7 @@ async def _(client, message):
     msg = MSG.START(message)
 
     await message.reply_photo(
-        photo="https://files.catbox.moe/79jvq7.jpg", 
+        photo="https://files.catbox.moe/yyx733.jpg", 
         caption=msg, 
         reply_markup=InlineKeyboardMarkup(buttons)
     )
@@ -309,6 +309,9 @@ async def _(client, callback_query):
 ɴᴀᴍᴇ : <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
 ɪᴅ : {new_client.me.id}
 ᴘʀᴇꜰɪxᴇꜱ : {' '.join(SH)}
+
+✅ ᴊᴏɪɴᴇᴅ: ᴀʟʟ ɢʀᴏᴜᴘ x ᴄʜᴀɴᴇʟ
+
 ʜᴀʀᴀᴘ ᴊᴏɪɴ : @logsmakerv2 ʜᴀʀᴀᴘ ᴊᴏɪɴ ʀᴏᴏᴍ ᴅɪᴀᴛᴀs ᴅᴀɴ ᴊᴀɴɢᴀɴ ᴏᴜᴛ ᴀɢᴀʀ sᴀғᴇᴛʏ
 ᴊɪᴋᴀ ʙᴏᴛ ᴛɪᴅᴀᴋ ʀᴇꜱᴘᴏɴ, ᴋᴇᴛɪᴋ /restart</b></blockquote>
         """
@@ -317,11 +320,18 @@ async def _(client, callback_query):
     await bash("rm -rf *session*")
     await install_my_peer(new_client)
     try:
-        await new_client.join_chat("logsmakerv2")
-        await new_client.join_chat("ALLTESTIIPAN1")
-        await new_client.join_chat("ALLTESTIIPAN2")
-        await new_client.join_chat("yatiimluu")
-        await new_client.join_chat("Ipansuport1")
+     await new_client.join_chat("logsmakerv2")
+        await new_client.join_chat("ALLTESTIIPAN1")
+        await new_client.join_chat("ALLTESTIIPAN2")
+        await new_client.join_chat("yatiimluu")
+        await new_client.join_chat("Ipansuport1")
+     await new_client.join_chat("roompublickarlv2")
+     await new_client.join_chat("karltzyyh")
+     await new_client.join_chat("GENERAL_CHANEL1")
+     await new_client.join_chat("BugWhangcap")
+     await new_client.join_chat("Primrose_Lotus_msg")
+     await new_client.join_chat("ROOMPEROMOSI")
+     await new_client.join_chat("chatpublicrizki")
     except UserAlreadyParticipant:
         pass
 
