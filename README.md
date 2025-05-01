@@ -3,7 +3,7 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://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@github.com/ipan1434/Userliteipan
+git clone https://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@github.com/ipan1434/Userliteipan
 ```
 ```
 cd Userliteipan && screen -S Userliteipan
