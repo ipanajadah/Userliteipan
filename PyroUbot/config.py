@@ -1,24 +1,27 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+DEVS = [5596830979]
 
-MAX_BOT = int(os.getenv("MAX_BOT", "30"))
-
-DEVS = list(map(int, os.getenv("DEVS", "293062346").split()))
-
-API_ID = int(os.getenv("API_ID", "25544803"))
-
-API_HASH = os.getenv("API_HASH", "e01c80b4dfafff7085f57edbb5a673b0")
-
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7987834818:AAGY3hbgm0SW2ngLoxknuC9nDT0LKhM33bc")
-
-OWNER_ID = int(os.getenv("OWNER_ID", "293062346"))
-
-BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002692266809").split()))
-
-RMBG_API = os.getenv("RMBG_API", "a6qxsmMJ3CsNo7HyxuKGsP1o")
-
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://ipanalkenzi:ipanalkenzi@cluster0.tyhf7ap.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-
-LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1002692266809"))
+devs_boong = list(map(int, getenv("devs_boong", "5596830979").split()))
+api_id = int(getenv("api_id", "28174304"))
+api_hash = getenv("api_hash", "227eae8466b8f68565060906069ca9e5")
+bot_token = getenv("bot_token", "7855545663:AAHXOaDkRVtUDKl7IkHGTaHnlb3-AJrdMM4")
+bot_id = int(getenv("bot_id", "7855545663"))
+db_name = getenv("db_name", "tes")
+log_pic = getenv("log_pic", "https://files.catbox.moe/6g5m9m.jpg")
+def_bahasa = getenv("def_bahasa", "id")
+owner_id = int(getenv("owner_id", "5596830979"))
+the_cegers = list(
+    map(
+        int,
+        getenv(
+            "the_cegers",
+            "5596830979",
+        ).split(),
+    )
+)
+dump = int(getenv("dump", "-1002678918064"))
+bot_username = getenv("bot_username", "NothingdevBOt")
+log_userbot = int(getenv("log_userbot", "-1002491521542"))
+nama_ip = getenv("nama_ip", "Iphone 12 Pro Max")
