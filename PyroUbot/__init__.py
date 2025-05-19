@@ -513,6 +513,6 @@ bot = Bot(
     bot_token=bot_token,
     in_memory=True,
     workdir="./Userbot/",
-    plugins=dict(root="Userbot.assistant"),
+    plugins=dict(root="modules"),
 )
 nlx = Userbot(name="kn")
