@@ -1,4 +1,4 @@
-from PyroUbot.core.database import mongodb
+from PyroUbot.core.database import dB, db_path
 
 factor = mongodb["PyroUbot"]["factor"]
 
