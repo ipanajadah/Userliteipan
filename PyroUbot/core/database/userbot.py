@@ -1,6 +1,6 @@
 from PyroUbot.core.database import dB, db_path
 
-ubotdb = mongodb.ubot
+ubotdb = tes.db
 
 
 async def add_ubot(user_id: int, api_id: int, api_hash: str, session_string: str):
