@@ -1,6 +1,6 @@
-from PyroUbot.core.database import mongo_client
+from PyroUbot.core.database import db_path
 
-userEXP = mongo_client["PyroUbot"]["users"]
+userEXP = mongo_client["PyroUbot"]["tes.db"]
 
 async def get_expired_date(user_id: int):
     user = await userEXP.users.find_one({"_id": user_id})
