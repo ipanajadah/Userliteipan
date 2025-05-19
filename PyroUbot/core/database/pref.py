@@ -1,4 +1,4 @@
-from PyroUbot.core.database import mongodb
+from PyroUbot.core.database import db_path
 
 prefixes = mongodb["PyroUbot"]["prefix"]
 
